@@ -31,7 +31,7 @@ Enter input: 6
 ## Man Page
 
 #### Name
-cdim - **c**hange **d**irectory **im**proved, a lazy programmers shell script for those dissapointed by ```shopt's autocd```
+cdim - **c**hange **d**irectory **im**proved, a lazy programmers shell script for those dissapointed by shopt's ```autocd```
 
 #### Synopsis
 ```cdim name [-g] [-d depth]```
