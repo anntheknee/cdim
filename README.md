@@ -36,7 +36,7 @@ cdim - **c**hange **d**irectory **im**proved, a lazy programmers shell script fo
 #### Synopsis
 ```cdim name [-g] [-d depth]```
 
-### Description
+#### Description
 **cdim** is a shell script aimed at being better than cd. By simply typing ```cd Directory```, you will be taken to ```.../Directory``` or if multiple results are found, a list will be populated for you to select from.
 
 The command most often used is simply
@@ -47,7 +47,7 @@ By default, cdim searched from the home directory - ```$HOME```
 
 The script will **not** work properly without a name parameter to search for.
 
-### Options
+#### Options
 The options may be given in any order, before or after name to be searched.
 
 -g
