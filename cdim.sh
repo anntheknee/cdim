@@ -43,7 +43,7 @@ else
     read -p "Enter input: " input
     ((input--))
     cd ${dirs[$input]}
-fitree
+fi
 unset depth
 unset global
 unset query
