@@ -7,6 +7,8 @@ Clone the script and setup the following alias. In order for cd to work in a scr
 alias cdim='. path_to_script'
 ```
 
+This can be done via the setup script in the repo. Note that this assumes you are loading from ~/.bashrc and not ~/.bash_profile or any other derivatives.
+
 ### Sample Usage
 ```
 [anthony@bloom Programming]$ cdim tmp -g 
@@ -31,7 +33,7 @@ Enter input: 6
 ## Man Page
 
 #### Name
-cdim - **c**hange **d**irectory **im**proved, a lazy programmers shell script for those dissapointed by ```shopt's autocd```
+cdim - **c**hange **d**irectory **im**proved, a lazy programmers shell script for those dissapointed by ```shopt's autocd``` and annoyed by zsh
 
 #### Synopsis
 ```cdim name [-g] [-d depth]```
@@ -45,7 +47,7 @@ The command most often used is simply
 
 By default, cdim searched from the home directory - ```$HOME```
 
-The script will **not** work properly without a name parameter to search for.
+The script will **not** work properly without a name parameter to search for. Furthermore, it is merely a script utilizing find. Thus, it does not cache directories and can be slow in machines with complex file systems.
 
 ### Options
 The options may be given in any order, before or after name to be searched.
